@@ -6,7 +6,7 @@
 
 # __🤔 Como utilizar?__
 1. Baixe e execute o arquivo PY<br>
-2. Quando for a sua vez, digite a combinação de letras que você recebeu<br>
+2. Quando for a sua vez, digite no console a combinação de letras que você recebeu<br>
 3. Pronto, só dar um CTRL + V no jogo!<br>
 
 <sub><sup>Obs: Caso você queira por algum motivo que esse script funcione offline, baixe o "br-sem-acentos.txt" e deixe no mesmo diretório do script.</sup></sub>
