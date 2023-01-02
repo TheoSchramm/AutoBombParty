@@ -1,8 +1,8 @@
 # __💣 Auto BombParty__
 - Script criado com a função de semi-automatizar o jogo de palavras [BombParty](https://jklm.fun/), onde você recebe uma combinação de letras (por exemplo, “vol”) e precisa digitar uma palavra que contenha essas letras (por exemplo, **vol**ante) antes que uma bomba exploda em você.<br><br>
 
-# __📷 Imagens__
-![](/img_exemplo.png?raw=true "Exemplo")<br>
+# __📷 Exemplo__
+![](/gif_exemplo.gif?raw=true "Exemplo")<br>
 
 # __🤔 Como utilizar?__
 1. Baixe e execute o arquivo PY<br>
