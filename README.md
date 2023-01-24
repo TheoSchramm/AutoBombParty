@@ -7,11 +7,9 @@
 # __📌 Dependências__
 1. Google Chrome
 2. Python
-3. Selenium
+3. Bibliotecas Selenium & Requests
 
-<sup>
 Caso você não queira baixar o Chrome e/ou o Selenium, também vou estar disponibilizando a versão semi-automática, onde você digita as combinações de letras no console e precisa copiar a resposta no navegador.
-</sup>
 
 # __🤔 Como utilizar?__
 1. Baixe e execute o arquivo PY<br>
