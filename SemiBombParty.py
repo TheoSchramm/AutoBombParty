@@ -7,7 +7,7 @@ def copy2clip(txt):
     return check_call(cmd, shell=True)
 
 def create_list(user_input,dic):
-    return [i for i in dic if user_input in i.lower() and len(i) < 9]
+    return [i for i in dic if user_input in i.lower() and len(i) < 8]
 
 def get_words():
     try:
