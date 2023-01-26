@@ -9,8 +9,8 @@
 ![](/gif_exemplo.gif?raw=true "Exemplo")<br>
 
 # __📌 Dependências__
-1. Google Chrome
-2. Python
+1. [Google Chrome](https://www.google.com/intl/pt-BR/chrome/)
+2. [Python](https://www.python.org/downloads/)
 3. Bibliotecas Selenium & Requests
 
 Caso você não queira baixar o Chrome e/ou o Selenium, também vou estar disponibilizando a versão semi-automática, onde você digita as combinações de letras no console e precisa colar a resposta no navegador.
