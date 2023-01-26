@@ -1,6 +1,6 @@
+from collections import defaultdict
 from requests import get
 from random import choice
-
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -11,10 +11,16 @@ from selenium.webdriver.support import expected_conditions as ec
 def get_words():
     try:
         print('. Carregando dicionário...')
-        return set(get('https://www.ime.usp.br/~pf/dicios/br-sem-acentos.txt').text.split('\n'))
+        words = get('https://www.ime.usp.br/~pf/dicios/br-sem-acentos.txt').text.split('\n')
     except:
         input('└───> Erro! Sem conexão com a internet. O script foi encerrado.')
         exit()
+
+    dic = defaultdict(list)
+    for word in words:
+        if word and len(word) < 8:
+            dic[word[0]].append(word)
+    return dic
 
 words_list = get_words()
 
@@ -56,7 +62,8 @@ class Driver():
                     #print(err)
 
     def create_list(self, obj, user_input, dic):
-        return [i for i in dic if user_input in i.lower() and len(i) < 8]
-
-if __name__ == '__main__':
-    Driver()
+        words = []
+        for key in dic:
+            words.extend(dic[key])
+        return [i for i in words if user_input in i.lower()]
+Driver()
