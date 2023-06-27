@@ -3,7 +3,7 @@
 
 
 # __👨‍💻 Como funciona__
-- Ele começa carregando um dicionário de palavras de um site externo e usando-o para criar um objeto defaultdict. Em seguida, ele usa o webdriver do Chrome para navegar até o site e espera o jogo carregar. Assim que o jogo é detectado, entra em um loop onde constantemente procura a sílaba da rodada atual e usa-a para encontrar palavras correspondentes no defaultdict. Em seguida, escolhe uma dessas palavras aleatoriamente e a insere no jogo. O script também inclui tratamento de erros para problemas de conexão à internet e timeout. <br>
+- Ele começa carregando um dicionário de palavras de um site externo. Em seguida, ele abre o navegador Chrome e navega até o site e espera o jogo carregar. Assim que o jogo é detectado, entra em um loop onde constantemente procura a sílaba da rodada atual e usa-a para encontrar palavras correspondentes no dicionário préviamente carregado. Em seguida, escolhe uma dessas palavras aleatoriamente e a insere no jogo. O script também inclui tratamento de erros para problemas de conexão à internet e timeout. <br>
 
 # __📷 Exemplo__
 ![](/gif_exemplo.gif?raw=true "Exemplo")<br>
